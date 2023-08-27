@@ -1,0 +1,124 @@
+/* intro */
+
+.intro-h1 {
+    color: #2273F3;
+    font-family: 'Jost', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.intro-h2 {
+    color: #2273F3;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.75rem;
+}
+
+.subtitle-h3 {
+    font-size: 1rem;
+    color: #393636;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+}
+
+.title-h2 {
+    font-size: 3rem;
+    color: #2273F3;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+body {
+    background: #FFF8ED;
+}
+
+.intro-detail {
+    display: flex;
+    gap: 1rem;
+}
+
+p {
+    color: #393636;
+}
+
+.col-detail {
+    background-color: #2273F3;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-detail-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    color: #FFF8ED;
+    margin-block-start: -5px;
+    margin-block-end: 0;
+}
+
+p.col-name {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.section__section {
+}
+
+section#intro {
+    padding-block: 3rem;
+}
+
+section#intro .section__content {
+    display: grid;
+    gap: 3rem;
+}
+
+/* /////// */
+
+
+.container.section__content {
+    padding-block: 2.5rem;
+}
+
+#about {
+}
+
+#projects {
+    /* background: url(./images/bluemarble.jpeg); */
+}
+
+img.img-fluid.heading-img {
+    max-height: 39px;
+}
+
+#contact {
+    background: url(./images/ltback.jpg);
+    min-height: 75vh;
+}
+
+.about-img {
+    /* max-width: 32vw; */
+    /* float: left; */
+    margin-inline-end: 1rem;
+    border: 1px solid black;
+}
+
+span.heading {
+    display: flex;
+    align-items: center;
+    padding-block-end: 1rem;
+    gap: 1rem;
+}
+
+span.heading > h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+form.row.g-3 {
+    max-width: 35rem;
+    border-radius: 5px;
+}
